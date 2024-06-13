@@ -38,7 +38,7 @@ export default function Home() {
             </div>
             <div className="collapse-content">
               <p>Yes ! Unsubby is totally free to use and it's open source ! You
-                can checkout the code over on <a href="https://github.com/Karm0s/Unsubby" className="underline">Github</a> if you are interested.
+                can checkout the code over on <a href="https://github.com/Karm0s/Unsubby" target="_blank" className="underline">Github</a> if you are interested.
               </p>
             </div>
           </div>
@@ -48,16 +48,16 @@ export default function Home() {
               What does it do exactly ?
             </div>
             <div className="collapse-content">
-              <p>Nothing magical really. Instead of unsubscribing manually and clicking many times only to remove one subscription. Unsubby gives you the ability to select all the channels and then unsubscribe for you.</p>
+              <p>Nothing magical really. Instead of unsubscribing manually and clicking many times only to remove one subscription. Unsubby gives you the ability to select channels and then do the clicking for you.</p>
             </div>
           </div>
           <div className="my-4 collapse collapse-arrow bg-base-200">
             <input type="radio" name="my-accordion" />
             <div className="collapse-title text-xl font-medium">
-              How can I contact you ?
+              How did you build this extension ?
             </div>
             <div className="collapse-content">
-              <p>Feel free to contact me using the contact form in the contact page.</p>
+              <p>The Readme file of the <a href="https://github.com/Karm0s/Unsubby" target="_blank" className="underline">Github</a> repository  explains how I made it.</p>
             </div>
           </div>
         </div>
