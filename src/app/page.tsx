@@ -28,7 +28,7 @@ export default function Home() {
         </div>
 
       </section>
-      <section className="p-24 min-h-screen flex flex-col items-center">
+      <section className="p-24 min-h-[80vh] flex flex-col items-center">
         <h2 className="mb-4 text-3xl font-bold">Frequeltly Asked Question</h2>
         <div className="w-1/2">
           <div className="my-4 collapse collapse-arrow bg-base-200">
@@ -38,7 +38,7 @@ export default function Home() {
             </div>
             <div className="collapse-content">
               <p>Yes ! Unsubby is totally free to use and it's open source ! You
-                can checkout the code over on Github if you are interested.
+                can checkout the code over on <a href="https://github.com/Karm0s/Unsubby" className="underline">Github</a> if you are interested.
               </p>
             </div>
           </div>
@@ -54,15 +54,6 @@ export default function Home() {
           <div className="my-4 collapse collapse-arrow bg-base-200">
             <input type="radio" name="my-accordion" />
             <div className="collapse-title text-xl font-medium">
-              How can I support Unsubby ?
-            </div>
-            <div className="collapse-content">
-              <p>You can buy me a coffee using the link bellow. Thank You !</p>
-            </div>
-          </div>
-          <div className="my-4 collapse collapse-arrow bg-base-200">
-            <input type="radio" name="my-accordion" />
-            <div className="collapse-title text-xl font-medium">
               How can I contact you ?
             </div>
             <div className="collapse-content">
@@ -71,6 +62,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <footer className="">
+        <div className="flex flex-col items-center">
+          <Image className="inline" src={Logo} width={32} alt="Unsubby extension logo"></Image>
+          <h1 className="text-xl font-bold"> Unsubby Extension</h1>
+          <p className="text-gray-500">Copyright © Unsubby Extension - Icons by <a href="https://www.icons8.com" className="underline">Icon8</a></p>
+        </div>
+      </footer>
     </main>
   );
 }
