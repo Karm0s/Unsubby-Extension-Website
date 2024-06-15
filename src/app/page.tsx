@@ -17,7 +17,10 @@ export default function Home() {
           <div className="mx-auto w-1/2 h-full flex flex-col items-center justify-center">
             <h1 className="text-3xl font-bold"> Unsubby Extension</h1>
             <h3 className="text-lg text-center mt-2">A small tool to help you clean your youtube subscriptions <br /> with less clicks.</h3>
-            <AddButton></AddButton>
+            <div className="mt-4 flex items-center justify-center">
+              <AddButton browser="Firefox"></AddButton>
+              <AddButton browser="Chrome"></AddButton>
+            </div>
           </div>
           <div className=" mx-auto mt-24">
             <video width={1100} className="rounded-lg max-w-[1100px]" autoPlay muted loop>
