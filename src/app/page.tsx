@@ -24,7 +24,7 @@ export default function Home() {
           </div>
           <div className=" mx-auto mt-24">
             <video width={1100} className="rounded-lg max-w-[1100px]" autoPlay muted loop>
-              <source src="video.mp4" type="video/mp4"></source>
+              <source src="video.webm" type="video/webm"></source>
               VIDEO FORMAT NOT SUPPORTED
             </video>
           </div>
