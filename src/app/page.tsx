@@ -37,7 +37,7 @@ export default function Home() {
               Is this extension free ?
             </div>
             <div className="collapse-content">
-              <p>Yes ! Unsubby is totally free to use and it's open source ! You
+              <p>Yes ! Unsubby is totally free to use and it&apos;s open source ! You
                 can checkout the code over on <a href="https://github.com/Karm0s/Unsubby" target="_blank" className="underline">Github</a> if you are interested.
               </p>
             </div>
