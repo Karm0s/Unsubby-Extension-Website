@@ -64,7 +64,7 @@ export default function Home() {
         </div>
       </section>
       <footer className="">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center text-center">
           <Image className="inline" src={Logo} width={32} alt="Unsubby extension logo"></Image>
           <h1 className="text-xl font-bold"> Unsubby Extension</h1>
           <p className="text-gray-500">Copyright © Unsubby Extension - Icons by <a href="https://www.icons8.com" className="underline">Icon8</a></p>
