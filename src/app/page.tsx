@@ -23,11 +23,9 @@ export default function Home() {
             </div>
           </div>
           <div className=" mx-auto mt-24">
-            <video width={1100} className="rounded-lg max-w-[1100px]" autoPlay muted loop>
-              <source src="video.webm" type="video/webm"></source>
-              VIDEO FORMAT NOT SUPPORTED
-            </video>
+            <iframe className="rounded-lg max-w-[1100px] h-[640px]" width="1120" height="630" src="https://www.youtube.com/embed/MtAXx99q8zI?si=Ndc5Q62FjV-S2BEz" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin"></iframe>
           </div>
+
         </div>
 
       </section>
