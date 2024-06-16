@@ -12,8 +12,8 @@ export default function AddButton({browser}:{browser: "Firefox" | "Chrome"}) {
     "Chrome": ChromeLogo
   };
   return (
-    <a href={storeLinks[browser]} className="inline-block">
-      <button className="btn btn-neutral w-60 mx-2">Add to {browser} <Image src={icon[browser]} width={25} alt="browser icon"></Image></button>
+    <a href={storeLinks[browser]} className="block">
+      <button className="btn btn-neutral w-60 mx-2 mt-4 md:mt-0">Add to {browser} <Image src={icon[browser]} width={25} alt="browser icon"></Image></button>
     </a>
   );
 }
