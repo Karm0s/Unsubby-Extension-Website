@@ -5,7 +5,7 @@ import ChromeLogo from "@/assets/chrome.svg";
 export default function AddButton({browser}:{browser: "Firefox" | "Chrome"}) {
   const storeLinks = {
     "Firefox": "https://addons.mozilla.org/en-US/firefox/addon/unsubby/", 
-    "Chrome": "https://chromewebstore.google.com/detail/unsubby/ebjikgdmfkclmnnhkdfgohcnfaaiclfj",
+    "Chrome": "https://chromewebstore.google.com/detail/ebjikgdmfkclmnnhkdfgohcnfaaiclfj",
   };
   const icon = {
     "Firefox": FirefoxLogo,
